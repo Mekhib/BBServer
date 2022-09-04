@@ -30,7 +30,7 @@ app.use('/users', usersRouter);
 
 //Routes
 app.get('/', (req,res)=>{
-  res.send("Landing server Page")
+  res.json("Landing server Page")
 })
 app.get("/api/create_link_token", linkCreate);
 app.get("/item/public_token/exchange/", tokenExchange);

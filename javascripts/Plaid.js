@@ -13,6 +13,4 @@ const configuration = new Configuration({
 });
 const plaidClient = new PlaidApi(configuration);
 
-console.log(plaidClient)
-
 module.exports = plaidClient
